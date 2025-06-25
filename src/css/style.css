@@ -1,0 +1,120 @@
+
+html,
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden ;
+}
+
+.home-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../assets/img/portadaweb.png) no-repeat center center fixed;
+  background-size: cover;
+  color: #f5f5f5;
+  font-family: "Playfair", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-page .logo {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-secundario, #f5f5f5);
+  margin-bottom: 1rem;
+}
+
+.home-page .intro {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: "Playfair", serif;
+}
+
+.home-page footer {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body.about-page {
+  background: url(../assets/img/aboutme2.png) no-repeat center center fixed ;
+  background-size: cover;
+  color: #3a3a52;
+  font-family: "Playfair", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.about-page footer {
+  text-align: center;
+  color: #3a3a52;
+  padding: 20px;
+}
+
+
+.about-page .intro {
+  font-style: italic;
+  font-family: "Playfair", serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #3a3a52;
+}
+
+.bio-box p {
+  font-size: 1.05rem;
+  font-family: "Playfair", serif;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.left-panel {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: rgba(221, 219, 219, 0.75);
+  z-index: 1000;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.left-panel h1 {
+  font-family: "Playfair", serif;
+  font-size: 2rem;
+  color: #3a3a52;
+  margin-bottom: 1rem;
+}
+
+.left-panel p {
+  font-family: "Playfair", serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #3a3a52;
+}
+
+body main{
+  flex: 1;
+}
+
