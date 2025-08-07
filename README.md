@@ -2,14 +2,6 @@
 
 **vstxt** es una página web dedicada a compartir información, recursos o herramientas relacionadas con plugins VST (Virtual Studio Technology), orientada a productores, músicos y entusiastas del sonido.
 
-## 🚀 Descripción
-
-Este sitio tiene como objetivo facilitar el acceso a:
-- Listados de VST gratuitos y de pago
-- Comparativas y reseñas de plugins
-- Tutoriales para instalar y usar VSTs
-- Consejos para la producción musical
-- Enlaces útiles para descargar presets o librerías
 
 ## 🌐 Tecnologías utilizadas
 
