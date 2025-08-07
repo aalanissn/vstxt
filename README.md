@@ -15,9 +15,9 @@ Este sitio tiene como objetivo facilitar el acceso a:
 
 - HTML5
 - CSS3
-- JavaScript (opcional, según si lo estás usando)
-- FontAwesome (para iconos)
-- [Otras tecnologías si aplica, como Node.js, Bootstrap, etc.]
+- JavaScript 
+- FontAwesome 
+
 
 ## 📁 Estructura del proyecto
 
